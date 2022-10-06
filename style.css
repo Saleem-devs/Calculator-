@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "My font";
+    src: url(./CinaGEO-Regular.ttf);
+}
+
+body {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 250px;
+    height: auto;
+    box-shadow: 5px 5px 5px #5a5a5a,
+                -5px -5px 5px #fff;
+    border-radius: 14px;
+}
+.box {
+    width: 200px;
+    margin: 20px auto;
+}
+
+h4 {
+    font-family: "My font";
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    letter-spacing: 2px;
+    
+}
+
+#display {
+    border: none;
+    outline: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: right;
+    margin: 30px 0 18px 0 ;
+    padding: 15px;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px #babacc,
+                inset -5px -5px 10px #fff;
+}
+
+.btn {
+    margin: 25px 0 0 5px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(214, 214, 214);
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 9px #b8b8b8,
+                -5px -5px 90px #fff;
+}
+.dark {
+    background: #000;
+    color: #fff;
+}
+
+.clearBtn {
+    background: rgb(201, 5, 5);
+    color: #fff;
+}
+.equal {
+    width: 90px;
+}
