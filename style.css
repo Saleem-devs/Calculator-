@@ -18,14 +18,15 @@ body {
 }
 
 .container {
-    width: 250px;
+    width: auto;
     height: auto;
     box-shadow: 5px 5px 5px #5a5a5a,
                 -5px -5px 5px #fff;
     border-radius: 14px;
+    padding: 0 20px 0 20px ;
 }
 .box {
-    width: 200px;
+    width: auto;
     margin: 20px auto;
 }
 
@@ -45,7 +46,7 @@ h4 {
     text-transform: uppercase;
     font-weight: 600;
     text-align: right;
-    margin: 30px 0 18px 0 ;
+    margin: 20px 0 18px 0 ;
     padding: 15px;
     background: transparent;
     box-shadow: inset 2px 2px 5px #babacc,
